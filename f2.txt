@@ -1,2 +1,3 @@
 Ce fichier f2.txt est là pour montrer au monde que les fichier .txt sont gentils
 Le fichier f2 est un peu feignant, il reste avec l'UC avec qui il s'entend si bien..
+Le fichier f2 ramène des amis...

@@ -1,2 +1,3 @@
 Ce fichier f1.txt est là pour montrer au monde que les fichier .txt sont gentils
 Le fichier f1 commence sa longue marche vers les systèmes de dépôt GIT...
+Le fichier f1 s'arrête ici dans son aventure... il nous manquera.

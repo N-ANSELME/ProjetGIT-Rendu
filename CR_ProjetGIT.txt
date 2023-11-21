@@ -1,0 +1,30 @@
+0) on se place dans le répertoire qui acceuille le dépôt GIT
+
+1)	git init ProjetGIT
+2)	cd ProjetGIT
+3)	touch f1.txt && touch f2.txt
+4)	echo "Ce fichier f1.txt est là pour montrer au monde que les fichier .txt sont gentils" > f1.txt && echo "Ce fichier f2.txt est là pour montrer au monde que les fichier .txt sont gentils" > f2.txt
+5)	git add f1.txt && git add f2.txt
+6)	git commit -m"Enregistrement f1.txt et f2.txt"
+7)	echo "Le fichier f1 commence sa longue marche vers les systèmes de dépôt GIT..." >> f1.txt && echo "Le fichier f2 est un peu feignant, il reste avec l'UC avec qui il s'entend si bien..." >> f2.txt
+8)	git add f1.txt && git add f2.txt
+9)	git commit -m"Modification des fichiers f1 & f2"
+10)	touch f3.txt && touch f4.txt
+11)	echo "Le fichier f2 ramène des amis..." >> f2.txt && echo "Le fichier f3 rentre en scène !" > f3.txt && echo "Le fichier f4 apparait !" > f4.txt
+12)	git add f2.txt && git add f3.txt  && git add f4.txt
+13)	git commit -m"Modification de f2.txt; Ajout de f3.txt & f4.txt"
+14)	git checkout -b Branche_B
+15)	git checkout -b Branche_A
+16)	touch f5.txt && echo "f5.txt rejoint la partie !" > f5.txt
+17)	git checkout Branche_A
+18)	touch f6.txt && echo "f6.txt viens pour regarder" > f6.txt
+19)	git add * && git commit -m"Les fichiers f5.txt et f6.txt ont été rajouter."
+20)	echo "attend que les autres fichiers finissent ce qu'ils ont à faire..." >> f6.txt
+21)	git add * && git commit -m"Le fichier f6.txt à été modifié"
+22)	rm f5.txt && git add * && git commit -m"Le fichier f5.txt nous à quitté... RIP"
+23)	git rm f5.txt
+24)	git commit -m"Adieux f5.txt"
+25)	git rm f2.txt && echo "f2.txt" >> .gitignore
+26)	git commit -m"Fin des actions"
+27)	git rm f3.txt && echo "f3.txt" >> .gitignore && git add * && git commit -m"f3.txt sera le dernier mort"
+28)	git merge Branche_A
